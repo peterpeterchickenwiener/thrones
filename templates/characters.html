@@ -1,0 +1,17 @@
+<body style="background-color: gray;"></body>
+
+<h4 style="font-family: Game of Thrones;
+    font-size:24px;
+    color:white">
+    Game of Thrones Characters</h4>
+
+<p><br></p>
+{% for character in chars %}
+<p style="color:white;">ID: {{ character.id }}</p>
+<p style="color:white;">First Name: {{ character.firstName }}</p>
+<p style="color:white;">Last Name: {{ character.lastName }}</p>
+<p style="color:white;">Full Name: {{ character.fullName }}</p>
+<p style="color:white;">Title: {{ character.title }}</p>
+<p style="color:white;">Family: {{ character.family }}</p>
+<p><br><p>
+{% endfor %}

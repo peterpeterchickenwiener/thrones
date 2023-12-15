@@ -1,0 +1,19 @@
+body {
+    background-image: url("throne.jpg");
+    background-size: cover; 
+    background-position: center; 
+    height: 100px; 
+    background-repeat: no-repeat;
+}
+
+nav {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a {
+    padding: 50px;
+    color: white;
+    font-size: 36px;
+    font-family: Game of Thrones;
+}
